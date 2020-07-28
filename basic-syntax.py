@@ -57,3 +57,17 @@ kamus_ind_eng = {'anak': 'son', 'ibu': 'mother', 'ayah': 'father'}
 print(kamus_ind_eng)
 print(kamus_ind_eng['ibu'])
 print(kamus_ind_eng['ayah'])
+
+print('\nData dari server Gojek')
+data_dari_server_gojek = {
+    'tanggal': '28-07-2020',
+    'driver': [
+        {'nama': 'mezi', 'jarak': 10},
+        {'nama': 'nano', 'jarak': 20},
+        {'nama': 'neni', 'jarak': 15},
+        {'nama': 'nunu', 'jarak': 37}
+    ]
+}
+print(f"Data driver {data_dari_server_gojek['driver']}")
+print(f"Nama driver #2 {data_dari_server_gojek['driver'][1]}")
+print(f"Jarak driver #3 {data_dari_server_gojek['driver'][2]['jarak']} meter")
